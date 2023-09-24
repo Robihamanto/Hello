@@ -40,14 +40,14 @@ Special thanks to the SwiftUI and iOS development community for their invaluable
 Explore the power of interactive onboarding and dynamic chart animations with our app. We look forward to seeing how you integrate and enhance this project for your own unique purposes!
 
 
-### Display
-#### iPhone
+## Display
+### iPhone
 <p float=left>
   <img src="https://github.com/Robihamanto/Hello/assets/17447048/e43d0182-3f5c-48f7-8736-8414e27b4b6f" width="30%"/>
   <img src="https://github.com/Robihamanto/Hello/assets/17447048/0a1f3ed9-ec93-4613-a1fd-e77f241ee2b0" width="30%"/>
 <p>
 
-#### iPad
+### iPad
 <p float=left>
   <img src="https://github.com/Robihamanto/Hello/assets/17447048/5c9dc83e-ee15-4fc8-bc6a-85cdb018096b" width="50%"/>
   <img src="https://github.com/Robihamanto/Hello/assets/17447048/d140b500-0ba1-47ad-ab4d-e8be7c6784eb" width="40%"/>
