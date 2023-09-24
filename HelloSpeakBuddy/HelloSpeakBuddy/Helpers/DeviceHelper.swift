@@ -12,9 +12,17 @@ enum DeviceHelper {
     static var isPad: Bool {
         return UIDevice.current.userInterfaceIdiom == .pad
     }
+    
+    static var isPad12: Bool {
+        return UIDevice.current.userInterfaceIdiom == .pad && screenHeight >= 1366
+    }
 
     static var isPhone: Bool {
         return UIDevice.current.userInterfaceIdiom == .phone
+    }
+    
+    static var isPhoneSE: Bool {
+        return isPhone && screenHeight <= 667
     }
     
     static var deviceOrientation: UIDeviceOrientation {

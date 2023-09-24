@@ -12,6 +12,8 @@
 		F4BB76BB2AC060C8001E8048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB76BA2AC060C8001E8048 /* Assets.xcassets */; };
 		F4BB76BE2AC060C8001E8048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB76BD2AC060C8001E8048 /* Preview Assets.xcassets */; };
 		F4BB76C62AC0617A001E8048 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB76C52AC0617A001E8048 /* DeviceHelper.swift */; };
+		F4BB76C82AC0628A001E8048 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB76C72AC0628A001E8048 /* FontManager.swift */; };
+		F4BB76CA2AC062A3001E8048 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB76C92AC062A3001E8048 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F4BB76BA2AC060C8001E8048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4BB76BD2AC060C8001E8048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4BB76C52AC0617A001E8048 /* DeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
+		F4BB76C72AC0628A001E8048 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		F4BB76C92AC062A3001E8048 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 				F4BB76C42AC06166001E8048 /* Helpers */,
 				F4BB76B62AC060C7001E8048 /* HelloSpeakBuddyApp.swift */,
 				F4BB76B82AC060C7001E8048 /* ContentView.swift */,
+				F4BB76C92AC062A3001E8048 /* OnboardingView.swift */,
 				F4BB76BA2AC060C8001E8048 /* Assets.xcassets */,
 				F4BB76BC2AC060C8001E8048 /* Preview Content */,
 			);
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				F4BB76C52AC0617A001E8048 /* DeviceHelper.swift */,
+				F4BB76C72AC0628A001E8048 /* FontManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			files = (
 				F4BB76B92AC060C7001E8048 /* ContentView.swift in Sources */,
 				F4BB76C62AC0617A001E8048 /* DeviceHelper.swift in Sources */,
+				F4BB76CA2AC062A3001E8048 /* OnboardingView.swift in Sources */,
+				F4BB76C82AC0628A001E8048 /* FontManager.swift in Sources */,
 				F4BB76B72AC060C7001E8048 /* HelloSpeakBuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +292,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,8 +319,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

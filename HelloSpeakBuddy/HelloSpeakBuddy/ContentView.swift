@@ -16,18 +16,18 @@ struct ContentView: View {
             Image("protty")
                 .resizable()
                 .scaledToFill()
-                .frame(
-                    width: DeviceHelper.screenWidth * 0.5,
-                    height: DeviceHelper.screenWidth * 0.5)
+                .frame(width: DeviceHelper.screenWidth * 0.5,
+                       height: DeviceHelper.screenWidth * 0.5)
                 .padding(.bottom, 64)
             Button("Show Onboarding") {
                 showOnboarding = true
             }
             .padding(.bottom, 16)
             .fullScreenCover(isPresented: $showOnboarding) {
+                OnboardingView()
             }
             Text("Tap the above button to show the onboarding screen and close it to restart the animation")
-                .font(.caption)
+                .font(FontManager.typography.captionFont)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 32)
         }
